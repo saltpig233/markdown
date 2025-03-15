@@ -6,7 +6,7 @@ body {
 }
 
 header {
-    background: linear-gradient(90deg, #00416a, #2a95ff);
+    background: linear-gradient(90deg, #0076c0, #2a95ff);
     color: #fff;
     padding: 20px 0;
     border-radius: 0 0 15px 15px;
@@ -74,7 +74,7 @@ form input[type="tel"] {
 
 form button {
     padding: 10px 20px;
-    background-color: #00416a;
+    background-color: #0076c0;
     color: #fff;
     border: none;
     border-radius: 5px;
@@ -86,7 +86,7 @@ form button:hover {
 }
 
 footer {
-    background: linear-gradient(90deg, #2a95ff, #00416a);
+    background: linear-gradient(90deg, #2a95ff, #0076c0);
     color: #fff;
     text-align: center;
     padding: 10px 0;

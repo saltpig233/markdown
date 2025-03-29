@@ -1,68 +1,32 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>诸神黄昏</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <title>尘埃爱看的</title>
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+            margin: 10px;
+        }
+    </style>
 </head>
+
 <body>
-    <header>
-        <div class="container">
-            <h1>诸神黄昏</h1>
-            <nav>
-                <ul>
-                    <li><a href="#introduction">介绍</a></li>
-                    <li><a href="#xtlz">雪田梨子</a></li>
-                    <li><a href="#2">2</a></li>
-                    <li><a href="#3">3</a></li>
-                    <li><a href="#contact">联系我们</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+    <h1></h1>
+    <div id="image-container"></div>
 
-    <section id="introduction" class="section">
-        <div class="container">
-            <h2>诸神黄昏</h2>
-            <p>诸神黄昏是一个揭露网站,用于揭露弱智脑残</p>
-            <p>在此网页的均不是孬种,请大家事先准备好呕吐袋,氧气瓶等物品</p>
-        </div>
-    </section>
-
-    <section id="xtlz" class="section">
-        <div class="container">
-            <h2>雪田梨子</h2>
-            <p>装逼瞎骂神权无脑刷屏崇洋媚外辱华港独穷逼战神的传奇一生</p>
-            <a href="yukitariko/index.html">点击此处了解更多......</a>
-        </div>
-    </section>
-
-    <section id="2" class="section">
-        <div class="container">
-            <h2>2号位置待定</h2>
-            <p>2号位置待定2号位置待定2号位置待定2号位置待定2号位置待定</p>
-    </section>
-
-    <section id="3" class="section">
-        <div class="container">
-            <h2>3号位置待定</h2>
-            <p>3号位置待定3号位置待定3号位置待定3号位置待定3号位置待定</p>
-    </section>
-
-    <section id="contact" class="section">
-        <div class="container">
-            <h2>联系我们</h2>
-            <p>如果您有任何问题或需要进一步的信息，请联系我们。</p>
-            <p>联系邮箱: xuetianlizi@outlook.com</p>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <p> 2025 Nobody &copy; 版权所有.</p>
-        </div>
-    </footer>
+    <script>
+        const imageContainer = document.getElementById('image-container');
+        for (let i = 1; i <= 99; i++) {
+            const img = document.createElement('img');
+            img.src = `a/${i}.jpg`;
+            img.alt = `Image ${i}`;
+            imageContainer.appendChild(img);
+        }
+    </script>
 </body>
-</html>
+
+</html>    
